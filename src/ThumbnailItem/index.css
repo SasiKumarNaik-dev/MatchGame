@@ -1,0 +1,35 @@
+.thumbnail-list {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.thumbnail-img {
+  height: 130px;
+  width: 130px;
+}
+.thumb-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .thumbnail-img {
+    height: 70px;
+    width: 70px;
+  }
+  .thumbnail-list {
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .thumbnail-img {
+    height: 50px;
+    width: 50px;
+  }
+}

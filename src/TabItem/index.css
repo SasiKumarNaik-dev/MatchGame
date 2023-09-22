@@ -1,0 +1,27 @@
+.tab-list {
+  list-style: none;
+}
+.tab-btn {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+.active-style {
+  border-bottom: 2px #fec653 solid;
+  padding-bottom: 10px;
+  color: #fec653;
+}
+@media screen and (max-width: 576px) {
+  .tab-btn {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .tab-btn {
+    font-size: 14px;
+  }
+}
